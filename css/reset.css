@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	padding:0;
+	margin:0;
+	}
+
+body,html{
+	font-family:'Mircrosoft YaHei';
+	}
+	
+a{
+	text-decoration:none;
+
+	}
+a:hover{
+	text-decoration:underline;
+	}
+li,ul{
+	list-style:none;
+	}
+.clearfix:after{
+	content:'';
+	display:block;
+	clear:both;
+	visibility:hidden;
+	height:0;
+	}
+.clearfix{
+	border:none;
+	}
+img{
+	border:none;
+	}

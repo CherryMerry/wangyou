@@ -1,0 +1,925 @@
+@charset "utf-8";
+/* CSS Document */
+.text-overflow{
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	}
+
+.index-top-tab{
+	position:relative;
+	margin: 16px auto 0;
+	width:978px;
+	height:213px;
+	border:1px solid #dfdfdf;
+	
+	}
+.index-tab-btngroup{
+	position:relative;
+	float:left;
+	width:115px;
+	}
+.index-tab-btngroup .btn{
+	position:relative;
+	color:#111;
+	text-align:center;
+	font-size:18px;
+	height:70px;
+	line-height:70px;
+	border-bottom:1px solid #dfdfdf;
+	border-right:1px solid #dfdfdf;
+	cursor:pointer;
+	}
+.index-tab-btngroup .active{
+	font-weight:bold;
+	border-right:none;
+	border-bottom:4px solid #288bff;
+	height:67px;
+	}
+.index-tab-box{
+	position:relative;
+	float:left;
+	padding-top:18px;
+	width:863px;
+	
+	
+	}
+
+.index-tab-item{
+	padding-left:26px;
+	overflow:hidden;
+	display:none;
+	}
+	
+.index-tab-box .show{
+	display:block;
+	}
+.index-tab-applist {
+	width:848px;
+	padding-bottom:12px;
+	
+	}
+.index-tab-applist .item{
+	display:block;
+	width:80px;
+	margin-right:26px;
+	float:left;
+	color:#292929;
+	}
+.index-tab-applist img{
+	display:block;
+	width:80px;
+	height:80px;
+	border-radius:8px;
+	overflow:hidden;
+	border:none;
+	background:none;
+	}
+.index-tab-applist p{
+	margin-top:10px;
+	font-size:12px;
+	height:12px;
+	line-height:12px;
+	text-align:center;
+	text-overflow:ellipsis;
+	}
+.index-tab-label{
+	position:relative;
+	width:820px;
+	border-top:1px dotted #c5c5c5;
+	overflow:hidden;
+	
+	
+	}
+.index-tab-label .item{
+	position:relative;
+	display:block;
+	float:left;
+	width:93px;
+	height:14px;
+	line-height:14px;
+	font-size:12px;
+	border-right:1px solid #c5c5c5;
+	color:#313131;
+	text-align:center;
+	margin-top:14px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	}
+.index-tab-label .inner{
+	position:relative;
+	margin-left:-14px;
+	width:850px;
+	}
+
+/*新闻页面*/	
+.index-news{
+	position:relative;
+	margin:20px auto;
+	width:980px;
+	height:530px;
+	border-top:1px solid #dfdfdf;
+	}
+	
+.index-news-left{
+	float:left;
+	padding-top:20px;
+	width:424px;
+	}
+	
+.index-news-right{
+	float:right;
+	width:530px;
+	
+	}
+	
+.index-news-top h2{
+	position:relative;
+	margin-top:22px;
+	margin-bottom:5px;
+	font-size:20px;
+	line-height:20px;
+	text-align:center;
+	
+	
+	}
+.index-news-top h2 a{
+	color:#555;
+	}	
+.index-news-top h2 a:hover{
+	color:#288BFF;
+	text-decoration:none;
+	}
+.index-news-top .content{
+	font-size:14px;
+	line-height:24px;
+	color:#666;
+	}
+.index-news-top .content a{
+	color:#666;
+	}
+.index-news-top .content a:hover{
+	color:#288bff;
+	text-decoration:none;
+	}
+	
+.index-news-icon{
+	position:absolute;
+	float:left;
+	left:0px;
+	top:0px;
+	height:64px;
+	width:67px;
+	background:url(../images/index-news-icon.png) no-repeat;
+	
+	}
+	
+.index-news-list{
+	margin-top:15px;
+	padding-top:15px;
+
+	border-top:1px dotted #dfdfdf;
+	}
+.index-news-list .news-item{
+	position:relative;
+	padding-left:50px;
+	padding-right:50px;
+	display:block;
+	font-size:16px;
+	line-height:26px;
+	}
+.index-news-list .news-item:hover{
+	color:#288bff;
+	text-decoration:none;
+	}
+.index-news-list .news-item .label{
+	position:absolute;
+	left:0px;
+	color:#4093fe;
+	padding-right:10px;
+	
+	}
+.index-news-list .news-item .detail{
+	display:block;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	}
+.index-news-list .news-item .date{
+	position:absolute;
+	right:0px;
+	color:#999999;
+	padding-right:10px;
+	top:0px;
+	
+	}
+	
+/*焦点图*/
+.index-focus-box{
+	position:relative;
+	height:264px;
+	
+	}
+	
+.index-focus-list a{
+	display:block;
+	}
+	
+.index-focus-list li{
+	position:absolute;
+	left:0;
+	top:0;
+	width:530px;
+	height:264px;
+	}
+.index-focus-list img{
+	display:block;
+	
+	}
+.index-focus-foot{
+	position:absolute;
+	left:0;
+	bottom:0;
+	width:100%;
+	height:40px;
+	background:rgba(0,0,0,0.8);
+	}
+.index-focus-foot .title{
+	display:block;
+	width:70%;
+	padding-left:12px;
+	line-height:40px;
+	font-size:16px;
+	color:#FFF;
+	}
+.index-focus-foot .title:hover{
+	color:#288bff;
+	text-decoration:none;
+	}
+.index-focus-foot .btn-group{
+	position:absolute;
+	top:18px;
+	right:6px;
+	}
+.index-focus-foot .btn-group li{
+	float:left;
+	margin-right:8px;
+	width:26px;
+	height:4px;
+	background:#FFF;
+	cursor:pointer;
+	}
+.index-focus-foot .btn-group .active,.index-focus-foot .btn-group li:hover{
+	background:#33a5f5;
+	}
+
+.index-small-box{
+	height:108px;
+	margin-top:16px;
+	}
+.index-small-box .box-l{
+	display:block;
+	float:left;
+	width:200px;
+	margin-right:15px;
+	}
+.index-small-box .box-r{
+	float:left;
+	width:310px;
+	}
+.index-small-box .box-r h3{
+	line-height:18px;
+	font-size:18px;
+	
+	}
+.index-small-box .box-r a{
+	color:#333333;
+	}
+	
+.index-small-box .box-r .info{
+	margin-top:13px;
+	font-size:14px;
+	line-height:26px;
+	color:#666;
+	}
+.index-small-box .box-r a:hover{
+	color:#288bff;
+	text-decoration:none;
+	}
+.index-small-box-bottom{
+	padding-top:16px;
+	border-top:1px dashed #c5c5c5;
+	}
+	
+/*banner*/
+.banner{
+	width:980px;
+	margin:0 auto 20px;
+	}
+	
+/*相同部分 第一组*/
+.common-module{
+	margin:0 auto;
+	width:980px;
+	}
+.common-module-title{
+	height:38px;
+	font-size:18px;
+	line-height:38px;
+	border-bottom:1px solid #dfdfdf;
+	}
+.common-module-title h3{
+	float:left;
+	font-weight:normal;
+	
+	
+	}
+.common-module-title .more{
+	float:right;
+	font-size:14px;
+	color:#585858;
+	padding-top:2px;
+	}
+.common-module-title .title{
+	color:#11111;
+	padding-bottom:7px;
+	border-bottom:3px solid #288bff;
+	}
+.common-module-title .title:hover{
+	color:#288bff;
+	text-decoration:none;
+	}
+.common-module-box{
+	position:relative;
+	margin-top:20px;
+	width:980px;
+	height:215px;
+	
+	}
+.app-download{
+	width:1012px;
+	height:200px;
+	overflow:hidden;
+
+	}
+.app-download-list{
+	float:left;
+	width:220px;
+	height:80px;
+	margin-bottom:34px;
+	margin-right:33px;
+	overflow:hidden;
+	}
+.app-download-list .app-icon{
+	display:block;
+	float:left;
+	margin-right:12px;
+	width:80px;
+	border-radius:10px;
+	}
+.app-download-list .app-info{
+	position:relative;
+	float:right;
+	width:128px;
+	}
+.app-download-list .app-info h4{
+	font-size:18px;
+	font-weight:normal;
+	line-height:18px;
+	margin-bottom:14px;
+	}
+.app-download-list .app-info .app-info-title{
+	color:#111;
+	}
+.app-download-list .app-info .app-info-title:hover{
+	color:#288bff;
+	text-decoration:none;
+	}
+.app-download-list .app-info .label{
+	font-size:14px;
+	line-height:14px;
+	color:#666666;
+	}
+.app-download-list .app-info .label .item{
+	margin-right:4px;
+	}
+.app-download-list .app-info .down-btn{
+	width:44px;
+	height:20px;
+	font-size:12px;
+	line-height:18px;
+	text-align:center;
+	color:#ffffff;
+	margin-top:14px;
+	background:#288bff;
+	}
+	
+/*相同部分 第二组*/
+.common-module-l{
+	position:relative;
+	float:left;
+	width:675px;
+	margin-right:30px;
+	margin-bottom:26px;
+	}	
+.common-module-r{
+	position:relative;
+	float:right;
+	width:275px;
+	margin-bottom:26px;
+	}
+.index-menu-box{
+	position:relative;
+	}
+.menu-list{
+	height:96px;
+	border-bottom:1px dotted #c5c5c5;
+	margin-top:20px;
+	}
+.menu-list .menu-list-logo{
+	float:left;
+	width:142px;
+	height:80px;
+	margin-right:25px;
+	}
+.menu-list .menu-list-info h4{
+	font-size:18px;
+	font-weight:normal;
+	line-height:18px;
+	
+	}
+.menu-list .menu-list-info .title{
+	color:#111111;
+	}
+.menu-list .menu-list-info .title:hover{
+	color:#288bff;
+	text-decoration:none;
+	}
+.menu-list .menu-list-info .detail{
+	font-size:14px;
+	line-height:27px;
+	padding-top:3px;
+	color:#666666;
+	}
+.index-bbs-box{
+	position:relative;
+	width:276px;
+	
+	}
+.box-top{
+	position:relative;
+	height:150px;
+	margin-top:22px;
+	}
+.box-top .bbs{
+	width:291px;
+	overflow:hidden;
+	}
+.bbs-list{
+	float:left;
+	margin-right:17px;
+	}
+.box-top .bbs-list{
+	position:relative;
+	width:80px;
+	}
+.box-top .bbs-list .bbs-icon{
+	width:80px;
+	height:75px;
+	}
+.bbs-list-info{
+	position:relative;
+	height:60px;
+	margin-top:15px;
+	margin-left:4px;
+	}
+.bbs-list-info .title{
+	font-size:12px;
+	line-height:16px;
+	font-weight:normal;
+	text-align:center;
+	color:#626262;
+	}
+.bbs-list-info .title:hover{
+	color:#288bff;
+	text-decoration:none;
+	}
+.bbs-list-info .btn{
+	position:absolute;
+	left:-4px;
+	bottom:0;
+	width:80px;
+	height:20px;
+	font-size:12px;
+	color:#ffffff;
+	text-align:center;
+	padding-top:4px;
+	background:#288bff;
+	}
+.bbs-list-info .active:hover{
+	color:#F93;
+	text-decoration:none;
+	}
+.box-bottom{
+	position:relative;
+	margin-top:9px;
+	}
+.reward-list{
+	height:40px;
+	line-height:40px;
+	border-bottom:1px dotted #c5c5c5;
+	}
+.reward-list .detail{
+	float:left;
+	width:220px;
+	font-size:14px;
+	color:#333333;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	}
+.reward-list .detail:hover{
+	color:#288bff;
+	text-decoration:none;
+	}
+.reward-list .reward-list-btn{
+	float:right;
+	width:44px;
+	height:20px;
+	font-size:12px;
+	line-height:20px;
+	text-align:center;
+	margin-top:9px;
+	color:#FFF;
+	background:#fe5a5a;
+	}
+
+/*相同部分 第三组*/
+.back{
+	position:relative;
+	border-bottom:1px dotted #c5c5c5;
+	padding-bottom:2px;
+	}
+.index-icon-box{
+	position:relative;
+	float:left;
+	width:250px;
+	margin-top:20px;
+	margin-right:22px;
+	}
+.icon-list .icon-list-logo-bottom{
+	position:absolute;
+	left:0;
+	bottom:0;
+	width:250px;
+	height:30px;
+	line-height:30px;
+	font-size:14px;
+	text-align:center;
+	color:#FFF;
+	background:rgba(0,0,0,0.6);
+	}
+.index-icon-box .icon-list{
+	position:relative;
+	margin-bottom:18px;
+	}
+.index-guide-box{
+	float:right;
+	width:403px;
+	margin-top:20px;
+	
+	}
+.index-guide-box .guide-list-title{
+	font-size:20px;
+	font-weight:normal;
+	line-height:20px;
+	color:#288bff;
+	margin-bottom:6px;
+	}
+.index-guide-box .guide-list{
+	margin-bottom:22px;
+	}
+.index-guide-box .guide-list-detail{
+	font-size:14px;
+	line-height:25px;
+	color:#666;
+	margin-bottom:4px;
+	}
+.guide-state-list{
+	border-top:1px dotted #c5c5c5;
+	padding-top:12px;
+	padding-bottom:10px;
+	}
+.guide-state-list .guide-list-state{
+	display:block;
+	line-height:30px;
+	
+	}
+.guide-state-list .guide-list-state .state{
+	font-size:16px;
+	color:#288bff;
+	margin-right:12px;
+	}
+.guide-state-list .guide-list-state .detail{
+	font-size:16px;
+	color:#333;
+	}
+.guide-state-list .guide-list-state .date{
+	float:right;
+	font-size:14px;
+	color:#999;
+	}
+.index-gift-back{
+	position:relative;
+	width:275px;
+	}
+.top-gift-box{
+	position:relative;
+	height:97px;
+	margin-top:22px;
+	border-bottom:1px dotted #c5c5c5;
+	}
+.top-gift-box .top-gift-logo{
+	float:left;
+	width:80px;
+	height:80px;
+	border-radius:9px;
+	}
+.top-gift-info{
+	position:relative;
+	float:left;
+	margin-left:10px;
+	}
+.top-gift-info .title{
+	display:block;
+	font-size:16px;
+	color:#288bff;
+	}
+.top-gift-info .detail{
+	font-size:16px;
+	line-height:16px;
+	color:#333;
+	margin-top:18px;
+	
+	}
+.top-gift-info .small-detail{
+	font-size:14px;
+	line-height:14px;
+	color:#666;
+	margin-top:13px;
+	}
+.top-gift-info .receive-btn{
+	position:absolute;
+	right:0;
+	bottom:0;
+	width:44px;
+	height:20px;
+	font-size:14px;
+	line-height:20px;
+	text-align:center;
+	color:#FFF;
+	background:#288bff;
+	}
+.gift-list{
+	position:relative;
+	height:41px;
+	line-height:41px;
+	border-bottom:1px dotted #c5c5c5;
+	}
+.gift-list .gift-list-detail{
+	float:left;
+	width:140px;
+	font-size:16px;
+	margin-right:19px;
+	overflow:hidden;
+	}
+.gift-list .gift-list-detail .active{
+	color:#333;
+	}
+.gift-list .gift-list-detail .active:hover{
+	color:#288bff;
+	text-decoration:none;
+	}
+.gift-list .gift-list-small-detail{
+	float:left;
+	font-size:12px;
+	color:#666666;
+	}
+.gift-list .receive-btn{
+	position:absolute;
+	right:0;
+	bottom:10px;
+	width:44px;
+	height:20px;
+	font-size:14px;
+	line-height:20px;
+	text-align:center;
+	color:#FFF;
+	background:#288bff;
+	}
+	
+/*另一个相同部分 第一组*/
+.common-module-title2 .title{
+	display:inline-block;
+	height:36px;
+	padding:0 8px;
+	border:none;
+	color:#666;
+	}
+.common-module-title2 .title-active{
+	border-top:3px solid #288bff;
+	border-right:1px solid #dfdfdf;
+	border-left:1px solid #dfdfdf;
+	color:#111;
+	background:#FFF;
+	}
+.index-commit-back .commit{
+	display:none;
+	margin-top:4px;
+	}
+.index-commit-back .switch-show{
+	display:block;
+	}
+.index-commit-back .commit .commit-list{
+	height:97px;
+	margin-top:16px;
+	border-bottom:1px dotted #c5c5c5;
+	}
+.commit-list .commit-logo{
+	float:left;
+	width:142px;
+	height:80px;
+	margin-right:26px;
+	}
+.commit-info{
+	float:left;
+	width:507px;
+	}
+.commit-info .title{
+	font-size:18px;
+	line-height:30px;
+	color:#111;
+	}
+.commit-info .title:hover{
+	color:#288bff;
+	text-decoration:none;
+	}
+.commit-info .detail{
+	font-size:14px;
+	line-height:25px;
+	color:#666;
+	}
+.common-module-r .top-back{
+	display:none;
+	}
+.common-module-r .switch-show{
+	display:block;
+	}
+.common-module-r .index-top-newGame{
+	height:94px;
+	margin-top:25px;
+	border-bottom:1px dotted #c5c5c5;
+	}
+
+.index-top-newGame .top-newGame-logo{
+	float:left;
+	width:80px;
+	height:80px;
+	margin-right:15px;
+	border-radius:10px;
+	}
+.top-newGame-info{
+	float:left;
+	width:180px;
+	}
+.top-newGame-info .title{
+	display:block;
+	font-size:16px;
+	margin-bottom:18px;
+	color:#288bff;
+	}
+.top-newGame-info .detail{
+	font-size:15px;
+	line-height:15px;
+	color:#333;
+	margin-bottom:13px;
+	}
+.top-newGame-info .detail2{
+	font-size:14px;
+	line-height:14px;
+	color:#666;
+	}
+.bottm-newGame-list{
+	height:41px;
+	line-height:41px;
+	border-bottom:1px dotted #c5c5c5;
+	}
+.bottm-newGame-list .info .date{
+	font-size:14px;
+	color:#288bff;
+	margin-right:20px;
+	}
+.bottm-newGame-list .info .name{
+	font-size:16px;
+	color:#333;
+	}
+.bottm-newGame-list .info .where{
+	float:right;
+	font-size:12px;
+	color:#666;
+	}
+	
+/*另一个相同部分 第二组*/
+.small-icon-list{
+	width:1024px;
+	height:355px;
+	margin-bottom:50px;
+	}
+.small-icon-list .small-icon-logo{
+	display:block;
+	float:left;
+	width:80px;
+	margin-top:20px;
+	margin-right:48px;
+	}
+.small-icon-list .title{
+	display:block;
+	}
+.small-icon-list .title{
+	margin-top: 8px;
+    font-size: 12px;
+    height: 12px;
+    line-height: 12px;
+    text-align: center;
+    text-overflow: ellipsis;
+	}
+	
+/*相同部分 第四组*/
+.index-game-box{
+	width:1005px;
+	height:447px;
+	margin-bottom:76px;
+	}
+.index-game-box .game-list{
+	position:relative;
+	display:block;
+	float:left;
+	margin-top:18px;
+	margin-right:25px;
+	}
+.index-game-box .game-list .title{
+	font-size:16px;
+	width:176px;
+	height:16px;
+	line-height:16px;
+	text-align:center;
+	color:#333;
+	margin-top:13px;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	}
+.index-game-box .game-list .logo{
+	position:relative;
+	}
+.index-game-box .game-list .foot{
+	position:absolute;
+	right:0;
+	bottom:0;
+	width:60px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	font-size:14px;
+	color:#FFF;
+	background:#000000;
+	}
+	
+/*网页底部*/
+.body-bottom{
+	position:relative;
+	background:#292929;
+	}
+.body-bottom .body-middle-bottom{
+	position:relative;
+	width:980px;
+	height:108px;
+	margin:0 auto;
+	background:#292929;
+	}
+.body-middle-bottom .info{
+	font-size:14px;
+	text-align:center;
+	color:#787878;
+	padding-top:37px;
+	}
+.body-middle-bottom .info .line{
+	padding:0 14px;
+	}
+.body-middle-bottom .english-info{
+	font-size:14px;
+	text-align:center;
+	color:#787878;
+	padding-top:18px;
+	}
